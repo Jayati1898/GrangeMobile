@@ -1,0 +1,16 @@
+{
+  "projects": {
+    "default": "grange-a3584",
+    "development": "grange-a3584"
+  },
+  "targets": {
+    "grange-c8790": {
+      "hosting": {
+        "app": [
+          "grange-c8790"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
