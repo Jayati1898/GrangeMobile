@@ -30,13 +30,14 @@
     height: 60vh;
 }
 .login-form{
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-bottom: 2rem;
     font-family: Poppins !important;
 }
 .login-form h5{
     font-size: 1.5rem;
     margin-bottom: 2rem;
+    font-family: Poppins;
 }
 ion-input{
     padding: 0.7rem !important;
@@ -44,6 +45,7 @@ ion-input{
     background-color: #CFCFCF;
     border-radius: 0.5rem;
     margin-bottom: 1.3rem;
+    font-family: Poppins;
 }
 ion-button{
     margin-top: 2rem;
@@ -52,15 +54,19 @@ ion-button{
     margin-right: auto;
     width: 8rem;
     font-size: 1rem;
+    font-family: Poppins;
+    --border-radius: 0.5rem;
 }
 ion-text{
     display: block;
     text-align: center;
+    font-family: Poppins;
 }
 .login-text{
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
     font-size: 1rem;
+    font-family: Poppins;
 }
 .login-social-links{
     background-color: #fff;

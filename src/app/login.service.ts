@@ -45,17 +45,6 @@ export class LoginService {
     return this.success;
   }
 
-  async loginWithFacebook(){
-    this.success = false;
-    await signInWithPopup(this.auth, new FacebookAuthProvider()).then((result)=> {
-      this.success = true;
-      console.log(this.success)
-    }).catch((error)=> {
-      console.log(error)
-      this.success = false;
-    })
-    return this.success;
-  }
 
   async loginWithTwitter(){
     this.success = false;

@@ -48,14 +48,6 @@ export class LoginPage implements OnInit {
     }
   }
 
-  async onLoginWithFacebook(){
-    if(await this.loginService.loginWithFacebook()){
-      this.router.navigate(["/home"])
-    }
-    else{
-      this.showError(true);
-    }
-  }
 
   showError(isOpen: boolean) {
     this.isAlertOpen = isOpen;
