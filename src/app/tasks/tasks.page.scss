@@ -16,10 +16,12 @@
     font-size: 1.3rem;
     margin-right: auto;
     font-weight: 600;
+    font-family: Poppins;
 }
 .content{
     padding: 1.7rem;
     background-color: rgba(0, 0, 0, 0.05);
+    font-family: Poppins;
 }
 .checkbox-container{
     padding: 1rem;
@@ -27,6 +29,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    font-family: Poppins;
 }
 .checkbox-container label{
     margin-left: 1rem;
@@ -39,9 +42,11 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    font-family: Poppins;
 }
 .modal-header{
     padding: 1.2rem;
+    font-family: Poppins;
 }
 ion-fab{
     margin-right: 1rem;
